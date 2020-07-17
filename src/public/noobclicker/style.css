@@ -1,0 +1,54 @@
+html{
+    background: #0f0f0f;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden
+}
+#wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+#clips{
+    text-align: center;
+    font-size: 140px;
+}
+.btn{
+    transition: color 200ms, background 200ms;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    background: #fecb06;
+    color: #0f0f0f;
+    padding: 5px
+}
+.btn:hover{
+    transition: color 200ms, background 200ms;
+    background: #0f0f0f;
+    color: #fecb06;
+}
+.upgrades{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+#ftr{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#reset{
+    color: #ff4242
+}
+.upgrade_clr{
+    color: #fecb06
+}

@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#lose {
+  font-size: 50px;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0f0f0f;
+  height: 15vh;
+  width: 15vh;
+  border-radius: 50%;
+  box-shadow: 0 10px #740c0c;
+  border: none;
+  background: #af2020;
+}
+#button:active {
+  transform: translateY(4px);
+  box-shadow: 0 5px #740c0c;
+}
+#button:focus {
+  outline: none;
+}

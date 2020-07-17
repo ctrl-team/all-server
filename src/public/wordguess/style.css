@@ -1,0 +1,67 @@
+body{
+    background: #0f0f0f;
+    color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+#wordtoguess{
+    font-size: 55px;
+    text-align: center;
+    z-index: 99;
+}
+
+.yellow{
+    color: #fecb06
+}
+
+#placetoguess{
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 27.5px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background: transparent;
+    color: #fecb06;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+#placetoguess:focus{
+    outline: none
+}
+
+#reload{
+    position: absolute;
+    z-index: 99;
+    top: 2vh;
+    right: 2vh;
+}
+
+#main{
+    position: relative
+}
+
+#points{
+    position: absolute;
+    top: -55%;
+    text-align: center;
+    z-index: -1;
+    opacity: 0.1;
+    font-size: 300px;
+}
+
+#wrap{
+    display: flex;
+    height: 93vh;
+    justify-content: center;
+    align-items: center
+}
+
+footer{
+    height: 7vh;
+    text-align: center
+}
