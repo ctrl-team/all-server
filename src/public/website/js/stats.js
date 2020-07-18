@@ -42,6 +42,7 @@ req.onreadystatechange = function () {
          }
        else
         console.log("error");
+        document.write('Error<br/><a href="/">Back to home page.</a>')
     }
   };
 req.send()
