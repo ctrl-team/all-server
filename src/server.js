@@ -15,10 +15,10 @@ app.get('/noobclicker', (req, res) => res.sendFile(join(views, 'noobclicker.html
 app.get('/keyguess', (req, res) => res.sendFile(join(views, 'keyguess.html')))
 app.get('/jebleb', (req, res) => res.sendFile(join(views, 'jebleb.html')))
 app.all('/', (req, res) => {
-  /*const json = ['Endpoints: ']
-  files.forEach(file => json.push(file.replace(/.html/gm, '')))
-  res.json(json)*/
   res.sendFile(join(views, 'index.html'))
+  /*const json = { endpoints: [] }
+  files.forEach(file => json.endpoints.push(file.replace(/.html/gm, '')))
+  res.json(json)*/
 })
 
 app.listen(8008, () => console.log('Server is ready.'))
