@@ -14,6 +14,7 @@ app.get('/wordguess', (req, res) => res.sendFile(join(views, 'wordguess.html')))
 app.get('/noobclicker', (req, res) => res.sendFile(join(views, 'noobclicker.html')))
 app.get('/keyguess', (req, res) => res.sendFile(join(views, 'keyguess.html')))
 app.get('/jebleb', (req, res) => res.sendFile(join(views, 'jebleb.html')))
+app.get('/rps', (req, res) => res.sendFile(join(view, 'rps.html')))
 app.all('/', (req, res) => {
   res.sendFile(join(views, 'index.html'))
   /*const json = { endpoints: [] }
